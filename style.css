@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url("assets/images/background.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.seperation {
+    height: 6px;
+    background-color: rgb(58, 53, 53);
+    width: 100%;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgba(41, 39, 39, 0.5);
+    line-height: 1.25rem;
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.625rem + 1rem + 0.5rem);
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgba(224, 222, 222, 0.5);
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(224, 222, 222, 0.5);
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 50vw;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    padding-right: 255px;
+}
+
+.second {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    max-width: 50vw;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    padding-right: 255px;
+}
+
+.imgsec {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 600px;
+}
+
+.imgsec img {
+    height: 470px;
+    width: 241px;
+    z-index: 0;
+    position: relative;
+}
+
+.imgsec video {
+    position: absolute;
+    top: 14%;
+    /* adjust to match screen */
+    left: 11%;
+    width: 78%;
+    height: 72%;
+    z-index: 5;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.reason {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.faq {
+    max-width: 800px;
+    margin: 40px auto;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.faq h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border-top: 1px solid black;
+}
+
+.faq-question {
+    width: 100%;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    /* No pointer since there's no interaction */
+}
+
+.faq-question:hover {
+    background-color: #414141;
+}
+
+.plus {
+    font-size: 24px;
+    font-weight: bold;
+}
