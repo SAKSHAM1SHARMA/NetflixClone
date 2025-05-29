@@ -178,7 +178,6 @@ nav button {
 .imgsec video {
     position: absolute;
     top: 14%;
-    /* adjust to match screen */
     left: 11%;
     width: 78%;
     height: 72%;
@@ -225,7 +224,6 @@ nav button {
     justify-content: space-between;
     align-items: center;
     cursor: default;
-    /* No pointer since there's no interaction */
 }
 
 .faq-question:hover {
